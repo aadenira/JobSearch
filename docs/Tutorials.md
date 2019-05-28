@@ -131,7 +131,7 @@
 
           ![Scheme](.././images/T3k.png)
           
-          a. Copy the URL created above(ends with .json) and replace in your github repo if forked. Changes can be made on your repo on line 13 of file **src/app/service/apicalls.service.spec.ts.**
+          a. Copy the URL created above(ends with .json) and replace in your github repo if forked. Changes can be made on your repo on line 13 of file **src/app/service/apicalls.service.ts.**
            
           b. Save this changes then proceed to next steps.
 
@@ -171,8 +171,9 @@
 
     6. Click on Delivery Pipeline to connect your Kubernetes cluster and Container registry namespace created above. Notes:
         1.  Create an IBM Cloud API Key by clicking on the **Create** button.
-        2. You can either use the default **App name** r create a new one.
-        3. Your Cluster namespace ( **3 below** ), should match that in the deployment.yml file in git, in this case **default**.
+        2. You can either use the default **App name** or create a new one.
+        3. **App name should be in lower case**
+        4. Your Cluster namespace ( **3 below** ), should match that in the deployment.yml file in git, in this case **default**.
 
           ![Scheme](.././images/T5f.png)
     
